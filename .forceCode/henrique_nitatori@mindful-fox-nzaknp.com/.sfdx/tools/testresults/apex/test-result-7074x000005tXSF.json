@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Dec 20, 2020 10:12 AM",
+        "testExecutionTime": "132 ms",
+        "testTotalTime": "132 ms",
+        "commandTime": "5873 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005tXSF",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008n4DEAQ"
+            },
+            "Id": "07M4x0000008n4DEAQ",
+            "QueueItemId": "7094x000000YJGTAA4",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7074x000005tXSFAA2",
+            "MethodName": "givenCreateWhenCreateAccountThenExpectedListOfAccount",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009dmjbAAA"
+                },
+                "Id": "01p4x000009dmjbAAA",
+                "Name": "AccountRepositoryTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 132,
+            "FullName": "AccountRepositoryTest.givenCreateWhenCreateAccountThenExpectedListOfAccount"
+        }
+    ]
+}

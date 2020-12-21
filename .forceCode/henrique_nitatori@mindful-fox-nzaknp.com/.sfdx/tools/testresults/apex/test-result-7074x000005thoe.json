@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Dec 20, 2020 7:07 PM",
+        "testExecutionTime": "143 ms",
+        "testTotalTime": "143 ms",
+        "commandTime": "5559 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005thoe",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008n5LEAQ"
+            },
+            "Id": "07M4x0000008n5LEAQ",
+            "QueueItemId": "7094x000000YJHWAA4",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7074x000005thoeAAA",
+            "MethodName": "givenCreateWhenCreateEventThenExpectedListOfEvent",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009eXtkAAE"
+                },
+                "Id": "01p4x000009eXtkAAE",
+                "Name": "EventRepositoryTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 143,
+            "FullName": "EventRepositoryTest.givenCreateWhenCreateEventThenExpectedListOfEvent"
+        }
+    ]
+}

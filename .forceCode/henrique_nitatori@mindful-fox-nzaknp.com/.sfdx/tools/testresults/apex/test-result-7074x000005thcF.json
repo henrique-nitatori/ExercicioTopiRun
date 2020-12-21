@@ -1,0 +1,94 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 3,
+        "passing": 3,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Dec 20, 2020 7:06 PM",
+        "testExecutionTime": "58 ms",
+        "testTotalTime": "58 ms",
+        "commandTime": "6045 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005thcF",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008n5GEAQ"
+            },
+            "Id": "07M4x0000008n5GEAQ",
+            "QueueItemId": "7094x000000YJHRAA4",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7074x000005thcFAAQ",
+            "MethodName": "givenCreateEventWhenAccountCategoryPremiumAndAnnualRevenueAboveThanAMillionThenExpectedEventObject",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009eaVrAAI"
+                },
+                "Id": "01p4x000009eaVrAAI",
+                "Name": "CreateEventByAccountCategoryTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 39,
+            "FullName": "CreateEventByAccountCategoryTest.givenCreateEventWhenAccountCategoryPremiumAndAnnualRevenueAboveThanAMillionThenExpectedEventObject"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008n5HEAQ"
+            },
+            "Id": "07M4x0000008n5HEAQ",
+            "QueueItemId": "7094x000000YJHRAA4",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7074x000005thcFAAQ",
+            "MethodName": "givenCreateEventWhenAccountCategoryPremiumAndAnnualRevenueLessThanAMillionThenExpectedNullEventObject",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009eaVrAAI"
+                },
+                "Id": "01p4x000009eaVrAAI",
+                "Name": "CreateEventByAccountCategoryTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 10,
+            "FullName": "CreateEventByAccountCategoryTest.givenCreateEventWhenAccountCategoryPremiumAndAnnualRevenueLessThanAMillionThenExpectedNullEventObject"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008n5IEAQ"
+            },
+            "Id": "07M4x0000008n5IEAQ",
+            "QueueItemId": "7094x000000YJHRAA4",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7074x000005thcFAAQ",
+            "MethodName": "givenCreateEventWhenAccountCategoryStandardThenExpectedNullEventObject",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009eaVrAAI"
+                },
+                "Id": "01p4x000009eaVrAAI",
+                "Name": "CreateEventByAccountCategoryTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 9,
+            "FullName": "CreateEventByAccountCategoryTest.givenCreateEventWhenAccountCategoryStandardThenExpectedNullEventObject"
+        }
+    ]
+}

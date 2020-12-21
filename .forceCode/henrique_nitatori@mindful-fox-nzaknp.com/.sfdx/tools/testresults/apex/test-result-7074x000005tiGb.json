@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 1,
+        "passing": 1,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Dec 20, 2020 7:21 PM",
+        "testExecutionTime": "46 ms",
+        "testTotalTime": "46 ms",
+        "commandTime": "7095 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005tiGb",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008n5aEAA"
+            },
+            "Id": "07M4x0000008n5aEAA",
+            "QueueItemId": "7094x000000YJHgAAO",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7074x000005tiGbAAI",
+            "MethodName": "createEventTest",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009eaVrAAI"
+                },
+                "Id": "01p4x000009eaVrAAI",
+                "Name": "CreateEventByAccountCategoryTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 46,
+            "FullName": "CreateEventByAccountCategoryTest.createEventTest"
+        }
+    ]
+}

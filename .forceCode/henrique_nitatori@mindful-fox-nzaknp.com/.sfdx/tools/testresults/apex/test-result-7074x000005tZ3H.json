@@ -1,0 +1,46 @@
+{
+    "summary": {
+        "outcome": "Failed",
+        "testsRan": 1,
+        "passing": 0,
+        "failing": 1,
+        "skipped": 0,
+        "passRate": "0%",
+        "failRate": "100%",
+        "testStartTime": "Dec 20, 2020 11:52 AM",
+        "testExecutionTime": "133 ms",
+        "testTotalTime": "133 ms",
+        "commandTime": "6933 ms",
+        "hostname": "https://mindful-fox-nzaknp-dev-ed.my.salesforce.com",
+        "orgId": "00D4x00000312ujEAA",
+        "username": "henrique_nitatori@mindful-fox-nzaknp.com",
+        "testRunId": "7074x000005tZ3H",
+        "userId": "0054x0000027d4KAAQ"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v50.0/tooling/sobjects/ApexTestResult/07M4x0000008n4SEAQ"
+            },
+            "Id": "07M4x0000008n4SEAQ",
+            "QueueItemId": "7094x000000YJGiAAO",
+            "StackTrace": "Class.EventRepository.create: line 8, column 1\nClass.EventRepositoryTest.givenCreateWhenCreateEventThenExpectedListOfEvent: line 13, column 1",
+            "Message": "System.DmlException: Insert failed. First exception on row 0 with id 00U4x000001dPwWEAU; first error: INVALID_FIELD_FOR_INSERT_UPDATE, cannot specify Id in an insert call: [Id]",
+            "AsyncApexJobId": "7074x000005tZ3HAAU",
+            "MethodName": "givenCreateWhenCreateEventThenExpectedListOfEvent",
+            "Outcome": "Fail",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v50.0/tooling/sobjects/ApexClass/01p4x000009eXtkAAE"
+                },
+                "Id": "01p4x000009eXtkAAE",
+                "Name": "EventRepositoryTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 133,
+            "FullName": "EventRepositoryTest.givenCreateWhenCreateEventThenExpectedListOfEvent"
+        }
+    ]
+}
